@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/principal.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <title>Art Gallery</title>
+</head>
+<body class="body" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <header>
+        <nav class="navbar navbar-expand-lg" >
+            <div class="container-fluid">
+            <a class="navbar-brand"   href="#">Art Gallery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i  class="fa-solid fa-burger"></i></span>
+            </button>
+            <div class="alineacion">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link "   href="inscripcion.html">inscripcion</a>
+                <a class="nav-link"  href="calendario.html">calendario</a>
+                <a class="nav-link"   href="inglaterra.html">Inglaterra</a>
+                <a class="nav-link"   href="portugal.html">Portugal</a>
+                </div>
+            </div>
+        </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <!-- Carrusel de imágenes -->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="img/parrafaelitas_P.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>John William Waterhouse</h5>
+                        <p>“La dama de Shalott,” 1888</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/image.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>John Everett Millais</h5>
+                        <p>“Isabella,” 1849</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/azulejos1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 style="color: black;">La boda de la gallina</h5>
+                        <p style="color: black;">siglo XVII d.C.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000" style="background: none;">
+                    <img src="img/azulejos2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Retábulo de Nossa Senhora da Vida</h5>
+                        <p>1580 d.C.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Sección de Cards -->
+        <section class="container my-5 card-container">
+            <div class="row">
+                <div class="col-sm-6">
+                <div class="card" style="background-color: transparent;border: none;">
+                    <div class="card-body" >
+                    <h5 class="card-title" style="color: black">Inglaterra: Arte Victoriano, Prerrafaelitas</h5>
+                    <p class="card-text" style="color: black">Los prerrafaelitas fueron un grupo de pintores y poetas que vivieron durante la época victoriana de Inglaterra. Fundado por William Holman Hunt, John Everett Millais y Dante Gabriel Rossetti en 1848, el grupo buscaba hacer frente a los ideales artísticos que se popularizaron durante el Alto Renacimiento</p>
+
+                    <a href="inglaterra.html" class="btn"> Conoce mas Aqui</a>
+                    </div>
+                </div>
+                </div>
+                <div class="col-sm-6">
+                <div class="card" style="background-color: transparent;border: none;">
+                    <div class="card-body">
+                    <h5 class="card-title" style="color: black">Azulejos Portugueses, Arte Manuelino</h5>
+                    <p class="card-text" style="color: black">Los azulejos portugueses son un elemento icónico de la cultura portuguesa, y su uso se remonta al siglo XV. Sin embargo, fue durante el periodo manuelino (1495-1521) que los azulejos alcanzaron su máximo esplendor y se convirtieron en una forma de arte verdaderamente distintiva.</p>
+
+                    <a href="portugal.html" class="btn"> Conoce mas Aqui</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+            <footer>
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                    <h2>Acerca de nosotros</h2>
+                    <p>Nuestra galería de arte presenta una colección <br>  espezializada en  dos temas y únicas  obras 
+                        clásicas <br>  de artistas emergentes y establecidos.</p>
+                    <p><a href="inscripcion.html">Inscribete para estar al tanto de informacion y aventos</a></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    <hr>
+                    <p style="color: black;">&copy; 2024 Art Gallery. Todos los derechos reservados.</p>
+                    </div>
+                </div>
+                </div>
+            </footer>
+
+
+</body>
+</html>

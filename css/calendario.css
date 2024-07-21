@@ -1,0 +1,151 @@
+.body{
+    margin: 0;
+        padding: 0;
+        background-image: url(https://previews.123rf.com/images/claudiodivizia/claudiodivizia1601/claudiodivizia160102161/50859922-vintage-que-mira-m%C3%A1rmol-material-de-textura-%C3%BAtil-como-fondo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow:visible;
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    nav {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        color: black;
+        display: flex;
+        font-family: "Inconsolata", monospace;
+    }
+    
+    .collapse navbar-collapse{
+        color: black;
+    }
+    
+    .container-fluid a,span,i{
+        color: black;
+    }
+    .navbar-nav a{
+        color: black;
+    }
+    .alineacion {
+        display: flex;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .navbar-brand {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calendar {
+    display: none;
+    width: 400px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: white;
+}
+.calendar:target {
+    display: block;
+}
+.calendar-header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+.calendar-header h2 {
+    margin: 0;
+    font-size: 16px;
+}
+.calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 100%;
+}
+.calendar-table th, .calendar-table td {
+    width: 14.28%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+}
+.calendar-table th {
+    background-color: #f4f4f4;
+    
+}
+.calendar-table td {
+    border-radius: 100%;
+    height: 50px;
+}
+.calendar-table td:not(.empty) {
+    background-color: #fff;
+    transition: background-color 0.3s;
+    border-radius: 100%;
+}
+.calendar-table td:not(.empty):hover {
+    background-color: #e4e4e4;
+    border-radius: 100%;
+}
+.empty {
+    background-color: #f4f4f4;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.C{
+    margin-top: 50px;
+    height: 800px;
+}
+
+.calendar tr{
+    border-radius: 50%;
+
+}
+
+.calendar-table{
+    border-radius: 100%;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.body, html {
+    font-family: "Roboto Mono", monospace;
+}
+
+.navbar-brand, .nav-link {
+    font-weight: 700;
+    font-family: "Roboto Mono", monospace;
+}
+
+@media (min-width: 576px) { 
+    .navbar-brand, .nav-link {
+        font-weight: 2000px;
+        font-family: "Roboto Mono", monospace;
+    }
+  }

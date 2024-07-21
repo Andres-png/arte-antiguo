@@ -1,0 +1,122 @@
+
+.body{
+    background-image: url(https://previews.123rf.com/images/iulias/iulias1502/iulias150201028/36556456-hermoso-fondo-vintage-con-diferentes-patrones-de-color-amarillo-beige-marr%C3%B3n-gris.jpg);
+    background-size: cover; 
+background-repeat: no-repeat;
+background-position: center;
+    margin: 0;
+    padding: 0;
+
+}
+#nav1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+/*     color: antiquewhite; */
+    color: black;
+    display: flex;
+    font-family: "Inconsolata", monospace;
+}
+
+.collapse navbar-collapse{
+/*     color: aliceblue; */
+    color: black;
+}
+
+.container-fluid a,span,i{
+/*     color: white; */
+color: black;
+}
+.navbar-nav a{
+/*     color: white; */
+color: black;
+}
+.alineacion {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-brand {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scrollspy-example {
+    height: 800px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4{
+    text-align: center;
+}
+
+.navbar{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+
+
+footer {
+    background-color: transparent;
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    color:antiquewhite;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+}
+
+
+.col-md-6 {
+    flex: 1 0 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+p {
+    line-height: 1.5;
+    text-align: center;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.body, html {
+    font-family: "Roboto Mono", monospace;
+}
+
+.navbar-brand, .nav-link {
+    font-weight: 700;
+    font-family: "Roboto Mono", monospace;
+}

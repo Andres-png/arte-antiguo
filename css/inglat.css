@@ -1,0 +1,81 @@
+.body{
+background-image: url(https://previews.123rf.com/images/iulias/iulias1502/iulias150201028/36556456-hermoso-fondo-vintage-con-diferentes-patrones-de-color-amarillo-beige-marr%C3%B3n-gris.jpg);
+
+    background-size: cover; 
+background-repeat: no-repeat;
+background-position: center;
+    margin: 0;
+    padding: 0;
+}
+#nav1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+/*     color: antiquewhite; */
+    color: black;
+    display: flex;
+    font-family: "Inconsolata", monospace;
+}
+
+.collapse navbar-collapse{
+/*     color: aliceblue; */
+    color: black;
+}
+
+.container-fluid a,span,i{
+/*     color: white; */
+color: black;
+}
+.navbar-nav a{
+/*     color: white; */
+color: black;
+}
+.alineacion {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-brand {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.row{
+    display: flex;
+    margin-top: 30px;
+    background-color: transparent;
+
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+.row img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25rem;
+    height: 300px;
+    flex-wrap: wrap;
+}
+.card {
+background-color: transparent;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body, html {
+    font-family: "Roboto Mono", monospace;
+}
+
+.navbar-brand, .nav-link {
+    font-weight: 700;
+    font-family: "Roboto Mono", monospace;
+}
