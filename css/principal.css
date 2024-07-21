@@ -270,7 +270,7 @@ footer a {
 
 @media (max-width: 576px) { 
 #carouselExampleInterval img{
-    height: 20vh;
+    height: 30vh;
     background-size: cover;
     background-position: absolute;
     }
